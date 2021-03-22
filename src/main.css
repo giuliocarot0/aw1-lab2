@@ -8,6 +8,12 @@ all the padding is disabled so full surface occupation*/
 .body{
     color:white;
 }
+.navbar{
+    color:rgb(236, 234, 234);
+}
+
+
+
 /*Content wrapper for the application body
 padded to avoid fixed-header overlapping content*/
 .app-body{
@@ -16,6 +22,18 @@ padded to avoid fixed-header overlapping content*/
     margin:0;
 }
 
+
+
+.sidebar{    
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-left: 0;
+    padding-left: 2% !important;
+}
+
+.nav{
+    padding-top: 4%;
+}
 .nav-link{
     color: rgb(43, 43, 43);
 }
@@ -24,23 +42,29 @@ padded to avoid fixed-header overlapping content*/
     background-color: #28a745; 
     color: white;
 }
-
-.sidebar{
-    height: inherit;
-    background-color: rgb(241, 241, 241);
-    margin-left: 0;
-}
-
-.nav{
-    padding-top: 4%;
-}
-
 hr
 {
-    border:solid 0.5px rgb(196, 196, 196) !important;
+    border:solid 0.2px rgb(196, 196, 196) !important;
     width: 96%;
-    margin-top: 0.5rem !important; 
-    margin-bottom: 0.5rem !important; 
-
+    margin-top: 0.3rem !important; 
+    margin-bottom: 0.3rem !important; 
 }
 
+
+
+
+.content{
+    padding: 2%  !important;
+    margin : 0;
+}
+
+.list-group{
+    width: 100%;
+    padding: 1% !important;
+}
+.list-group-item{
+    padding-left: 5% !important;
+}
+.task-important{
+    color:red;
+}
