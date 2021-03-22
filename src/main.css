@@ -12,7 +12,9 @@ all the padding is disabled so full surface occupation*/
     color:rgb(236, 234, 234);
 }
 
-
+.user-menu{
+    float: right;
+}
 
 /*Content wrapper for the application body
 padded to avoid fixed-header overlapping content*/
@@ -67,4 +69,8 @@ hr
 }
 .task-important{
     color:red;
+}
+
+.task-date{
+    float: right;
 }
