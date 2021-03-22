@@ -15,17 +15,14 @@ padded to avoid fixed-header overlapping content*/
     height: 100%;
     margin:0;
 }
+
 .nav-link{
     color: rgb(43, 43, 43);
-
 }
+
 .active{
     background-color: #28a745; 
     color: white;
-}
-
-.body{
-    height: 100%;
 }
 
 .sidebar{
@@ -38,4 +35,12 @@ padded to avoid fixed-header overlapping content*/
     padding-top: 4%;
 }
 
+hr
+{
+    border:solid 0.5px rgb(196, 196, 196) !important;
+    width: 96%;
+    margin-top: 0.5rem !important; 
+    margin-bottom: 0.5rem !important; 
+
+}
 
