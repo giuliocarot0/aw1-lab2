@@ -1,3 +1,31 @@
+.separeted-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    margin-left: 0 !important;
+}
+
+.bi-list{
+    display: none;
+}
+
+.nav .nav-link:not(:last-child) {
+    border-bottom: 1px solid silver;
+ }
+ 
+ .nav-link{
+    color: rgb(43, 43, 43); 
+
+ }
+
 /*main container 
 all the padding is disabled so full surface occupation*/
 .container-fluid{
@@ -5,37 +33,74 @@ all the padding is disabled so full surface occupation*/
     padding-right:0px !important;
     height: 100%;
 }
-.body{
-    color:white;
-}
+
 /*Content wrapper for the application body
 padded to avoid fixed-header overlapping content*/
 .app-body{
-    padding-top: 70px ;
+    display: flex;
     height: 100%;
-    margin:0;
 }
-.nav-link{
-    color: rgb(43, 43, 43);
 
-}
 .active{
     background-color: #28a745; 
     color: white;
 }
 
 .body{
-    height: 100%;
+    padding-top: 1%;
 }
 
 .sidebar{
-    height: inherit;
+    height: 100%;
     background-color: rgb(241, 241, 241);
     margin-left: 0;
+    padding-top: 1%;
 }
 
-.nav{
-    padding-top: 4%;
+.important-task{
+    color: red;
 }
 
+.form-check{
+    padding-left: 0px !important;
+}
+
+.check-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    height: 8%;
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border-radius: 100% !important;
+    display: flex !important; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+.btn{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+@media(max-width:767px){
+    .sidebar{
+        display: none;
+    }
+    .form-inline{
+        display: none !important;
+    }
+    .bi-list{
+        display: flex;
+    }
+
+}
 
