@@ -11,8 +11,7 @@
   
     <body>        
         <div class="container-fluid">
-            <div class="header">
-            <nav class="navbar navbar-expand-md bg-success fixed-top" >
+            <nav class="navbar navbar-expand-md bg-success" >
                 <div class="col-md-4">
                     <div class="row">
                         <h1 class="bi bi-check-all"></h1>
@@ -20,28 +19,55 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="row  ">
-                
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                      </form>
-                      <h1 class="bi bi-person-circle"></h1>
+                    <div class="row separeted-items">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <h1 class="bi bi-person-circle"></h1>
                     </div>
                 </div>
             </nav>
-        </div>
             <div class="app-body">
                 <div class="sidebar col-md-4 bg-grey">
                     <nav class="nav nav-fill flex-column">
-                        <a class="nav-link active" href="#">Active</a>
-                        <a class="nav-link " href="#">Link</a>
-                        <a class="nav-link" href="#">Link</a>
-                        <a class="nav-link " href="#">Disabled</a>
+                        <a class="nav-link active" href="#">All</a>
+                        <a class="nav-link " href="#">Important</a>
+                        <a class="nav-link" href="#">Today</a>
+                        <a class="nav-link " href="#">Next 7 Days</a>
+                        <a class="nav-link " href="#">Private</a>
                       </nav>
                     
                 </div>
-                <div class="col-md-8">
-
+                <div class="body col-md-8">
+                    <h2>All</h2>
+                    <div class="form-check">
+                        <ul>
+                            <li class="check-item">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Complete Lab 2
+                                </label>
+                                <label class="task-date">Monday 22 March 2021 at 14:30</label>
+                            </li>
+                            <li class="check-item">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Buy some groceries
+                                </label>
+                                <i class="bi bi-person-square"></i>
+                                <label class="task-date">Today at 14:00</label>
+                            </li>
+                            <li class="check-item">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label important-task" for="flexCheckDefault">
+                                    Read a good book!
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-success btn-circle btn-lg">
+                        <i class="bi bi-plus"></i>
+                    </button>     
                 </div>
             </div>
         </div>
