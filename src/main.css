@@ -7,14 +7,34 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .row{
     margin-left: 0 !important;
+    flex: 1;
+}
+
+.bi{
+    margin: 0px;
+}
+
+.form-inline{
+    margin-bottom: 0px;
+    flex: 1.8;
+}
+
+.SiteL{
+    margin: 0px;
+    align-self: center;
 }
 
 .bi-list{
     display: none;
+}
+
+.bi-person-circle{
+    color: #f8f9fa7a;
 }
 
 .nav .nav-link:not(:last-child) {
@@ -100,7 +120,9 @@ padded to avoid fixed-header overlapping content*/
     }
     .bi-list{
         display: flex;
+    }   
+    .row{
+        flex: inherit;
     }
-
 }
 
