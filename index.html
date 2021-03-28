@@ -10,10 +10,12 @@
     </head>
   
     <body>        
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <nav class="navbar navbar-expand-md bg-success" >
                 <div class="header">
-                    <h1 class="bi bi-list"></h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#left-sidebar" aria-controls="left-sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+                        <h1 class="bi bi-list"></h1>
+                    </button>
                     <div class="row">
                         <h1 class="bi bi-check-all"></h1>
                         <h3 class="SiteL">ToDo Manager</h3>
@@ -24,8 +26,8 @@
                         <h1 class="bi bi-person-circle"></h1>
                 </div>
             </nav>
-            <div class="app-body">
-                <div class="sidebar col-md-4 bg-grey">
+            <div class="app-body row">
+                <div class="sidebar col-md-4 col-12 bg-grey" id="left-sidebar">
                     <nav class="nav nav-fill flex-column">
                         <a class="nav-link active" href="#">All</a>
                         <a class="nav-link " href="#">Important</a>
@@ -35,7 +37,7 @@
                       </nav>
                     
                 </div>
-                <div class="body col-md-8">
+                <div class="body col-md-8 col-12">
                     <h2>All</h2>
                     <div class="form-check">
                         <ul>
